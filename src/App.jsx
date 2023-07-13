@@ -1,5 +1,5 @@
 import "bulma/css/bulma.css"
-import { Form } from "react-hook-form"
+import 'bootstrap/dist/css/bootstrap.css';
 import Formularios from "./components/Formularios"
 
 
@@ -11,6 +11,7 @@ function App() {
     <>
      <h1>Formulario</h1>
     <Formularios/>
+   
     </>
   )
 }
